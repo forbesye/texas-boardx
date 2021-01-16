@@ -1,44 +1,326 @@
 [
-    {
-        "name": "Name",
-        "description": "Description",
-        "time": "Time",
-        "players": "Players",
-        "rate": "Rate"
-    },
-    {
-        "name": "Name",
-        "description": "Description",
-        "time": "Time",
-        "players": "Players",
-        "rate": "Rate"
-    },
-    {
-        "name": "Name",
-        "description": "Description",
-        "time": "Time",
-        "players": "Players",
-        "rate": "Rate"
-    },
-    {
-        "name": "Name",
-        "description": "Description",
-        "time": "Time",
-        "players": "Players",
-        "rate": "Rate"
-    },
-    {
-        "name": "Name",
-        "description": "Description",
-        "time": "Time",
-        "players": "Players",
-        "rate": "Rate"
-    },
-    {
-        "name": "Name",
-        "description": "Description",
-        "time": "Time",
-        "players": "Players",
-        "rate": "Rate"
-    }
+  {
+    "_id": { "$oid": "5ec02d02676191a4b3fe481e" },
+    "title": "For Sale",
+    "img": "img/forsale.jpeg",
+    "price": 8,
+    "info": "For Sale is a quick, fun game nominally about buying and selling real estate. During the game's two distinct phases, players first bid for several buildings then, after all buildings have been bought, sell the buildings for the greatest profit possible. You will have to strategically allocate your money and houses for bidding in each phase to make the biggest profit.",
+    "players": "3-6",
+    "time": "30"
+  },
+  {
+    "_id": { "$oid": "5ec03bff676191a4b3fe4820" },
+    "title": "13 Clues",
+    "img": "img/13clues.PNG",
+    "price": 8,
+    "company": "Andres Voicu",
+    "info": "13 Clue is a game of deducting your own unique set of clues. Each player sees the clues — person + location + weapon — for the other players but not their own. They investigate by asking questions, by consulting the secret informant, and by making accusations in order to collect clues and rule out suspects. The goal of the game is to identify which of the 13 clues match their case before the others do!",
+    "players": "2-6",
+    "time": "30"
+  },
+  {
+    "_id": { "$oid": "5ecd9334f1363dfbbcec58c8" },
+    "title": "Mahjong",
+    "img": "img/mahjong.PNG",
+    "price": 8,
+    "company": "N/A",
+    "info": "Mahjong is a game of tiles in which you should collect tiles with matching number, suit, or consecutive numbers. There are extra points for special combination of tiles too.",
+    "players": "4",
+    "time": "15-30"
+  },
+  {
+    "_id": { "$oid": "5ecd9665f1363dfbbcec58c9" },
+    "title": "Poker",
+    "img": "img/poker.PNG",
+    "price": 6,
+    "info": "Enjoy a round of poker with this set of chips and cards!",
+    "players": "2-10",
+    "time": "45-60"
+  },
+  {
+    "_id": { "$oid": "5ecd96ddf1363dfbbcec58ca" },
+    "title": "Cards Against Humanity",
+    "img": "img/cah.PNG",
+    "price": 8,
+    "info": "The game is simple. Each round, one player asks a question from a black card, and everyone else answers with their funniest white card.",
+    "players": "3-20",
+    "time": "30-90"
+  },
+  {
+    "_id": { "$oid": "5ecd9725f1363dfbbcec58cb" },
+    "title": "Spyfall 2",
+    "img": "img/spyfall2.PNG",
+    "price": 8,
+    "company": "N/A",
+    "info": "Spyfall is a game full of deduction and bluffing. At the start of each round all players receive cards showing the same location — except that one player receives a card that says \"Spy\" instead of the location. Players then start asking each other questions — \"Why are you dressed so strangely?\" or \"When was the last time we got a payday?\" to guess who among them is the spy. The spy doesn't know where he is, so he has to listen carefully. When it's his time to answer, he'd better create a good story! The spy’s goal is to guess the correct location where everyone else is and all other players must correctly guess who the spy is.",
+    "players": "3-12",
+    "time": "15"
+  },
+  {
+    "_id": { "$oid": "5ecd97e3f1363dfbbcec58cd" },
+    "title": "Lexio",
+    "img": "img/lexio.PNG",
+    "price": 8,
+    "info": "Lexio is a tile game with the objective of getting rid of your tiles as fast as possible. Players take turns to play their tiles in a climbing order based on suites and numbers. Players can pass if they don’t have or want to reveal higher tiles. If everyone passes, player with the last tile leads next round. You might want to save your stronger combination such as flush or full house. This game is all about utilizing your tiles to claim the lead in the next round!",
+    "inCart": false,
+    "players": "3-5",
+    "time": "20"
+  },
+  {
+    "_id": { "$oid": "5ecd9826f1363dfbbcec58ce" },
+    "title": "Goodcritters",
+    "img": "img/goodcritters.PNG",
+    "price": 10,
+    "info": "GoodCritters is a game for 4-8 criminal critters who are pulling off heists and fighting over the loot! Whoever is chosen as the boss can distribute the loot from the heist however they desire, but it's the crew that has the final say. If the crew doesn't like the split, they might just tell the boss to take a hike and put some other critter in charge! In the end, the critter that collects the most valuable stash of loot wins!",
+    "players": "4-8",
+    "time": "30"
+  },
+  {
+    "_id": { "$oid": "5ecd9903f1363dfbbcec58cf" },
+    "title": "The Secret Hitler",
+    "img": "img/thesecrethitler.PNG",
+    "price": 10,
+    "info": "Secret Hitler is a social deduction, mafia-type game for 5-10 people about finding and stopping the Secret Hitler. Players are secretly divided into two teams: the liberals, who have a majority, and the fascists, who are hidden to everyone but each other. If the liberals can learn to trust each other, they have enough votes to control the elections and save the day. But the fascists will say whatever it takes to get elected, advance their agenda, and win the game.",
+    "players": "5-10",
+    "time": "45"
+  },
+  {
+    "_id": { "$oid": "5ecd9945f1363dfbbcec58d0" },
+    "title": "Las Vegas",
+    "img": "img/lasvegas.PNG",
+    "price": 8,
+    "info": "Las Vegas is an easy, simple, and fun dice rolling game. Want to have an experience like in Vegas? Roll your dice and place them on casino cards with reward money. You would have to compete with others placing dice in the same cards as you. Test out your strategy, betting, playing odds, and luck!",
+    "players": "2-5",
+    "time": "40"
+  },
+  {
+    "_id": { "$oid": "5ecd9968f1363dfbbcec58d1" },
+    "title": "EXIT",
+    "img": "img/exit.PNG",
+    "price": 8,
+    "info": "Experience an escape game room without breaking your bank! This affordable game allows you to have an equivalent experience of playing an escape game. Use your creativity, teamwork, and deduction skills to escape the room with your friends! Available in THREE different themes.",
+    "players": "1-6",
+    "time": "60-120"
+  },
+  {
+    "_id": { "$oid": "5ecd9984f1363dfbbcec58d2" },
+    "title": "Ticket to Ride",
+    "img": "img/tickettoride.PNG",
+    "price": 8,
+    "info": "Experience an escape game room without breaking your bank! This affordable game allows you to have an equivalent experience of playing an escape game. Use your creativity, teamwork, and deduction skills to escape the room with your friends! Available in THREE different themes.",
+    "players": "2-5",
+    "time": "30-60"
+  },
+  {
+    "_id": { "$oid": "5ecd99a2f1363dfbbcec58d3" },
+    "title": "Lost Cities",
+    "img": "img/lostcities.PNG",
+    "price": 6,
+    "info": "The objective of the game is to gain points by mounting profitable archaeological expeditions to the different sites represented by the colored suits of cards. Players must play their cards to expeditions in an ascending order or discard them. You will receive points and bonus points according to your cards in each expedition.",
+    "players": "2",
+    "time": "30"
+  },
+  {
+    "_id": { "$oid": "5ecd99c3f1363dfbbcec58d4" },
+    "title": "Carcassonne",
+    "img": "img/carcassonne.PNG",
+    "price": 6,
+    "info": "Carcassonne is a tile-placement game in which the players draw and place a tile with a piece of southern French landscape on it. The tile might feature a city, a road, a cloister, grassland or some combination thereof, and it must be placed adjacent to tiles that have already been played, in such a way that cities are connected to cities, roads to roads, etc. Having placed a tile, the player can then decide to place one of his meeples on one of the areas on it. You will face dilemmas of where you should place your tiles and meeples because there are different points acquired from different areas where you put your meeples.",
+    "players": "2-5",
+    "time": "30-45"
+  },
+  {
+    "_id": { "$oid": "5ecd99f9f1363dfbbcec58d5" },
+    "title": "7 Wonders Duel",
+    "img": "img/7wondersduel.PNG",
+    "price": 6,
+    "info": "7 Wonders Duel is a one-on-one game with the objective of building 7 wonders. You can purchase resources or gain cards which provide you with resources required for future building. You can claim dominance as you acquire resources because it increases costs of those resources for your opponent. This game requires constant building and getting ahead of the opponent. Try crushing your best friend by claiming dominance through this game.",
+    "players": "2",
+    "time": "30"
+  },
+  {
+    "_id": { "$oid": "5ecd9a1af1363dfbbcec58d6" },
+    "title": "Love Letter",
+    "img": "img/loveletter.PNG",
+    "price": 6,
+    "info": "Love Letter is a game of risk, deduction, and luck for 2–4 players. Your goal is to get your love letter into Princess Annette's hands while deflecting the letters from competing suitors. From a deck with only sixteen cards, each player starts with only one card in hand; one card is removed from play. On a turn, you draw one card, and play one card, trying to expose others and knock them from the game. Powerful cards lead to early gains, but make you a target. Rely on weaker cards for too long, however, and your letter may be tossed in the fire!",
+    "players": "2-4",
+    "time": "20"
+  },
+  {
+    "_id": { "$oid": "5ecd9a30f1363dfbbcec58d7" },
+    "title": "Pandemic",
+    "img": "img/pandemic.PNG",
+    "price": 6,
+    "info": "Can you save humanity? Pandemic is one of rare board games in which you would have to cooperate with all the other players. You and your team must must stop the four diseases and cure them before a Pandemic occurs. Players take actions such as sharing knowledge, building research stations, moving to other locations, and discovering a cure - basically anything they can to stop the disease from spreading. Test out teamwork with your friends and save humanity!",
+    "players": "2-4",
+    "time": "40"
+  },
+  {
+    "_id": { "$oid": "5ecd9a55f1363dfbbcec58d8" },
+    "title": "Dixit",
+    "img": "img/dixit.PNG",
+    "price": 8,
+    "company": "N/A",
+    "info": "Dixit is a game of pictures and images. You will speak out a word that describes one of your picture cards, and other players will guess which card is the one you chose. The trick is, you would not want to make it too easy or too hard. If at least one of other players guessed it right, you and that player will get points. If no one gets it right or everyone gets it right, everyone except you will get points. This game will test your ability to think through others’ minds and making the correct intuitive choices.",
+    "inCart": false,
+    "players": "3-6",
+    "time": "30"
+  },
+  {
+    "_id": { "$oid": "5ecd9a7cf1363dfbbcec58da" },
+    "title": "Bang!",
+    "img": "img/bang.PNG",
+    "price": 8,
+    "info": "Bang is a card game in which each player is given a role of either sheriff, outlaw, or renegade. Players take turn drawing and playing cards to achieve the goals of their respective role. No role is revealed in the beginning except Sheriff. Outlaws look for eliminating the Sheriff while avoiding arrests from him. Renegade wants to be the last one standing. This strategic card game will enable you to shoot others utilizing your cards and bullets to eliminate players and reach your objective of victory.",
+    "players": "4-7",
+    "time": "20-40"
+  },
+  {
+    "_id": { "$oid": "5ecd9a94f1363dfbbcec58db" },
+    "title": "The Great Dalmuti",
+    "img": "img/thegreatdalmuti.PNG",
+    "price": 6,
+    "info": "A light card game where players gain status by going out first. Players take turns playing cards of the same or higher rank than previous cards. They can pass if they choose not or cannot play the higher cards. If everyone passes, a player who played the last set of cards leads the next round. It is a simple climbing card game in which you want to get rid of your cards as fast as possible. The game is much more fun if players role-play their respective roles.",
+    "players": "4-8",
+    "time": "60"
+  },
+  {
+    "_id": { "$oid": "5ecd9abef1363dfbbcec58dc" },
+    "title": "Anonymous",
+    "img": "img/anonymous.PNG",
+    "price": 6,
+    "company": "N/A",
+    "info": "Anonymous is a deduction game divided into two teams: Anonymous and AI. Fun part is, players don’t know their teammates until all their cards are revealed. Each player must hide their identity and reveal opponents' identities by deducing the number on their cards. Be careful! You cannot assume each other's identity until enough of their cards are revealed. By using clues, items, and maybe your bluffing skills, strike down the opponent team while securing yourself!",
+    "inCart": false,
+    "players": "2-5",
+    "time": "20"
+  },
+  {
+    "_id": { "$oid": "5ecd9aedf1363dfbbcec58dd" },
+    "title": "Da Vinci Code",
+    "img": "img/davincicode.PNG",
+    "price": 6,
+    "company": "N/A",
+    "info": "Da Vinci Code is a game of tiles in which you deduce the numbers on opponent's tiles by deducing from their placements and your tiles. With a simple composition of 13 tiles each for black and white, Da Vinci Code allows you to test your deduction and bluffing ability in order to knock down others' tiles as fast as possible without much room for mistakes.",
+    "inCart": false,
+    "players": "2-4",
+    "time": "15"
+  },
+  {
+    "_id": { "$oid": "5ecd9b1ff1363dfbbcec58de" },
+    "title": "Codenames",
+    "img": "img/codenames.PNG",
+    "price": { "$numberInt": "8" },
+    "info": "In Codenames, two teams compete to see who can make contact with all of their agents first. Spymasters give one-word clues that can point to multiple words on the board. Their teammates try to guess words of the right color while avoiding those that belong to the opposing team and one assassin.",
+    "players": "2-8",
+    "time": "15",
+    "available": true
+  },
+  {
+    "_id": { "$oid": "5ecd9b40f1363dfbbcec58e0" },
+    "title": "Risk",
+    "img": "img/risk.PNG",
+    "price": 8,
+    "info": "Possibly the most popular, mass market war game. If you are full of ambition and will to conquer, this game is for you.  You will conquer as much territory as possible and control the whole continent by conquering every territory on the continent. You will gain reinforcements based on your territory and you can attack other players and combat them with a simple dice game. Keep expanding your territory, moving your army, and conquering others’ territory.",
+    "players": "2-6",
+    "time": "60"
+  },
+  {
+    "_id": { "$oid": "5ecd9b5af1363dfbbcec58e1" },
+    "title": "Rummikub",
+    "img": "img/rummikub.PNG",
+    "price": { "$numberInt": "6" },
+    "info": "Rummikub is similar to some playing card games, but with tiles. You try to get rid of all your tiles by forming numbers into sets which can be either straight of 3 tiles or more of the same color, or 3 to 4 of a kind. The fun part of the game is pulling tile(s) from another players’ set to create your own set. This game may start rather uneventfully, but when the players start putting more and more tiles in play, the options for your upcoming turns can become more complex, challenging, and exciting.",
+    "players": "2-4",
+    "time": "40"
+  },
+  {
+    "_id": { "$oid": "5ecd9b78f1363dfbbcec58e2" },
+    "title": "The Resistance: Avalon",
+    "img": "img/theresistanceavalon.PNG",
+    "price": 10,
+    "company": "N/A",
+    "info": "The Resistance: Avalon is a secret identity, mafia-type game in which Evil forces try to spoil the conquest of Good forces. Merlin from the Goods know who the Evils are, but must be careful with exposing them because the Goods will lose if the Evils figure out who Merlin is. This game will create endless debating, bluffing, and deducing among your friends.",
+    "inCart": false,
+    "players": "5-10",
+    "time": "30"
+  },
+  {
+    "_id": { "$oid": "5ecd9ba0f1363dfbbcec58e3" },
+    "title": "Citadels",
+    "img": "img/citadels.PNG",
+    "price": 10,
+    "info": "Citadels is a role-playing strategy building game. The players take on new characters every round with unique abilities. They acquire gold and erect buildings after series of actions of and interactions among different characters. The player with the highest score based on the buildings built wins. Fun part is, your role changes every round which may affect your ability to gain gold and erect buildings.",
+    "players": "2-8",
+    "time": "60"
+  },
+  {
+    "_id": { "$oid": "5ecd9bbdf1363dfbbcec58e4" },
+    "title": "Century: Spice Road",
+    "img": "img/centuryspiceroad.PNG",
+    "price": 8,
+    "info": "Century: Spice Roads is a game of collecting different spices and using cards to earn the most points and coins. Players will collect spices and different cards which enable them to collect further more spices and buy point cards with them. The game will require your long-term strategy and resource management skills.",
+    "inCart": false,
+    "players": "2-5",
+    "time": "40"
+  },
+  {
+    "_id": { "$oid": "5ecd9bdcf1363dfbbcec58e5" },
+    "title": "Coup",
+    "img": "img/coup.PNG",
+    "price": { "$numberInt": "6" },
+    "company": "N/A",
+    "info": "In Coup, you want to be the last player with any card(s) left in the game, with influence being represented by face-down character cards in your playing area. Fun part is, you can bluff an influence that you actually don’t have and use it effectively unless anyone challenges. Be careful with bluffing and challenging because you may lose one of your only two cards!",
+    "players": "2-6",
+    "time": "15"
+  },
+  {
+    "_id": { "$oid": "5ecd9bf6f1363dfbbcec58e6" },
+    "title": "Monopoly",
+    "img": "img/monopoly.PNG",
+    "price": 8,
+    "info": "Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes.",
+    "players": "2-6",
+    "time": "60"
+  },
+  {
+    "_id": { "$oid": "5ecd9c26f1363dfbbcec58e7" },
+    "title": "Clue",
+    "img": "img/clue.PNG",
+    "price": 6,
+    "company": "N/A",
+    "info": "Clue is a murder mystery game. The aim is to find out who committed the murder, which weapon they used, and where in the mansion they did it. How do you solve the case? By careful questioning of your fellow players you can deduce which information is concealed in the crime envelope. The trick is to be clever with your questioning... Everyone develops their own system!",
+    "inCart": false,
+    "players": "3-6",
+    "time": "30"
+  },
+  {
+    "_id": { "$oid": "5ecd9c46f1363dfbbcec58e8" },
+    "title": "One Night Ultimate Werewolf",
+    "img": "img/onenightultimatewerewolf.PNG",
+    "price": 8,
+    "company": "N/A",
+    "info": "One Night Ultimate Werewolf is a fast-pace mafia-type game with secret roles for everyone. Like a mafia game, villagers must find and execute the werewolf. Trick is, your roles may have changed over night. You might find yourself switched to a werewolf by surprise. You only get ONE chance to kill a werewolf after only ONE night!",
+    "inCart": false,
+    "players": "3-10",
+    "time": "10"
+  },
+  {
+    "_id": { "$oid": "5ecd9c77f1363dfbbcec58e9" },
+    "title": "Splendor",
+    "img": "img/splendor.PNG",
+    "price": 6,
+    "info": "Splendor is a game of chip-collecting and card development. Players are merchants of the Renaissance trying to buy gem mines, means of transportation, shops—all in order to acquire the most prestige points. Collect beautiful gems to claim your prestige!",
+    "players": "2-4",
+    "time": "30"
+  },
+  {
+    "title": "Catan",
+    "img": "img/catan.PNG",
+    "price": 6,
+    "info": "Catan is a game of collecting resources, building roads and cities, and negotiating with other players to acquire necessary resources. Test your ability in negotiating and settling your own colony!",
+    "players": "3-4",
+    "time": "60"
+  }
 ]

@@ -1,5 +1,5 @@
-import Layout from "components/Layout"
-import GameList from "components/GameList"
+import Layout from "components/Layout";
+import GameList from "components/GameList";
 
 export default function Home({ games }) {
   return (
@@ -7,12 +7,12 @@ export default function Home({ games }) {
       <h1>Catalog</h1>
       <GameList games={games} />
     </Layout>
-  )
+  );
 }
 
 export async function getStaticProps() {
-    const res = await fetch("http://localhost:3000/game_info.json")
-    const games = await res.json()
+  const res = await fetch("http://localhost:3000/game_info.json");
+  const games = await res.json();
 
-    return { props: { games }}
+  return { props: { games } };
 }
