@@ -4,7 +4,7 @@ import GameList from "components/GameList";
 export default function Home({ games }) {
   return (
     <Layout>
-      <h1>Catalog</h1>
+      <h1 className="text-gray-900 font-bold text-3xl">Catalog</h1>
       <GameList games={games} />
     </Layout>
   );

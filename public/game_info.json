@@ -211,7 +211,7 @@
     "_id": { "$oid": "5ecd9b1ff1363dfbbcec58de" },
     "title": "Codenames",
     "img": "img/codenames.PNG",
-    "price": { "$numberInt": "8" },
+    "price": 8,
     "info": "In Codenames, two teams compete to see who can make contact with all of their agents first. Spymasters give one-word clues that can point to multiple words on the board. Their teammates try to guess words of the right color while avoiding those that belong to the opposing team and one assassin.",
     "players": "2-8",
     "time": "15",
@@ -230,7 +230,7 @@
     "_id": { "$oid": "5ecd9b5af1363dfbbcec58e1" },
     "title": "Rummikub",
     "img": "img/rummikub.PNG",
-    "price": { "$numberInt": "6" },
+    "price": 6,
     "info": "Rummikub is similar to some playing card games, but with tiles. You try to get rid of all your tiles by forming numbers into sets which can be either straight of 3 tiles or more of the same color, or 3 to 4 of a kind. The fun part of the game is pulling tile(s) from another players’ set to create your own set. This game may start rather uneventfully, but when the players start putting more and more tiles in play, the options for your upcoming turns can become more complex, challenging, and exciting.",
     "players": "2-4",
     "time": "40"
@@ -269,8 +269,7 @@
     "_id": { "$oid": "5ecd9bdcf1363dfbbcec58e5" },
     "title": "Coup",
     "img": "img/coup.PNG",
-    "price": { "$numberInt": "6" },
-    "company": "N/A",
+    "price": 6,
     "info": "In Coup, you want to be the last player with any card(s) left in the game, with influence being represented by face-down character cards in your playing area. Fun part is, you can bluff an influence that you actually don’t have and use it effectively unless anyone challenges. Be careful with bluffing and challenging because you may lose one of your only two cards!",
     "players": "2-6",
     "time": "15"
