@@ -14,7 +14,12 @@ export default function Layout({ children, title = "Texas BoardX" }) {
       <header>
         <Navbar />
       </header>
-      {children}
+      <main className="bg-gray-50 p-2">
+        <div className="block md:w-9/12 m-auto">
+          {children}
+        </div>
+      </main>
+      
       <footer> © 2021 Texas BoardX, Inc. All rights reserved.</footer>
     </div>
   );
