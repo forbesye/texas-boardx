@@ -2,7 +2,7 @@ import React from "react";
 
 export default function GameCard({ title, price, players, time, img }) {
   return (
-    <div className="w-80 bg-white shadow-xl rounded-xl overflow-hidden m-4 flex-none hover:shadow-2xl p-4">
+    <div className="w-80 bg-white shadow-xl rounded-xl overflow-hidden m-4 flex-none p-4 transition duration-250 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-110">
       <h1 className="text-gray-900 font-bold text-2xl px-4 mt-2 truncate">{title}</h1>
       <p className="text-gray-900 font-bold text-lg tracking-wider px-4">{`$${price}/day`}</p>
       <img className="h-64 w-full object-contain my-2 p-4" src={img} alt={title}/>
