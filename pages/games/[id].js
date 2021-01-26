@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import Head from "next/head";
+import gameInfo from "public/game_info.json"
 
 export default function Game({ game }) {
   const router = useRouter();
@@ -18,10 +19,11 @@ export default function Game({ game }) {
 }
 
 export async function getServerSideProps({ params }) {
-  const req = await fetch(`http://localhost:3000/${params.id}.json`);
-  const data = await req.json();
+  // const req = await fetch(`/${params.id}.json`);
+  // const data = await req.json();
+  // // const data = await gameInfo.json()
 
-  return {
-    props: { game: data },
-  };
+  // return {
+  //   props: { game: data },
+  // }
 }
