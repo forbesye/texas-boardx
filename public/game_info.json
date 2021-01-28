@@ -62,7 +62,6 @@
     "img": "img/lexio.PNG",
     "price": 8,
     "info": "Lexio is a tile game with the objective of getting rid of your tiles as fast as possible. Players take turns to play their tiles in a climbing order based on suites and numbers. Players can pass if they don’t have or want to reveal higher tiles. If everyone passes, player with the last tile leads next round. You might want to save your stronger combination such as flush or full house. This game is all about utilizing your tiles to claim the lead in the next round!",
-    "inCart": false,
     "players": "3-5",
     "time": "20"
   },
@@ -163,7 +162,6 @@
     "price": 8,
     "company": "N/A",
     "info": "Dixit is a game of pictures and images. You will speak out a word that describes one of your picture cards, and other players will guess which card is the one you chose. The trick is, you would not want to make it too easy or too hard. If at least one of other players guessed it right, you and that player will get points. If no one gets it right or everyone gets it right, everyone except you will get points. This game will test your ability to think through others’ minds and making the correct intuitive choices.",
-    "inCart": false,
     "players": "3-6",
     "time": "30"
   },
@@ -192,7 +190,6 @@
     "price": 6,
     "company": "N/A",
     "info": "Anonymous is a deduction game divided into two teams: Anonymous and AI. Fun part is, players don’t know their teammates until all their cards are revealed. Each player must hide their identity and reveal opponents' identities by deducing the number on their cards. Be careful! You cannot assume each other's identity until enough of their cards are revealed. By using clues, items, and maybe your bluffing skills, strike down the opponent team while securing yourself!",
-    "inCart": false,
     "players": "2-5",
     "time": "20"
   },
@@ -203,7 +200,6 @@
     "price": 6,
     "company": "N/A",
     "info": "Da Vinci Code is a game of tiles in which you deduce the numbers on opponent's tiles by deducing from their placements and your tiles. With a simple composition of 13 tiles each for black and white, Da Vinci Code allows you to test your deduction and bluffing ability in order to knock down others' tiles as fast as possible without much room for mistakes.",
-    "inCart": false,
     "players": "2-4",
     "time": "15"
   },
@@ -242,7 +238,6 @@
     "price": 10,
     "company": "N/A",
     "info": "The Resistance: Avalon is a secret identity, mafia-type game in which Evil forces try to spoil the conquest of Good forces. Merlin from the Goods know who the Evils are, but must be careful with exposing them because the Goods will lose if the Evils figure out who Merlin is. This game will create endless debating, bluffing, and deducing among your friends.",
-    "inCart": false,
     "players": "5-10",
     "time": "30"
   },
@@ -261,7 +256,6 @@
     "img": "img/centuryspiceroad.PNG",
     "price": 8,
     "info": "Century: Spice Roads is a game of collecting different spices and using cards to earn the most points and coins. Players will collect spices and different cards which enable them to collect further more spices and buy point cards with them. The game will require your long-term strategy and resource management skills.",
-    "inCart": false,
     "players": "2-5",
     "time": "40"
   },
@@ -290,7 +284,6 @@
     "price": 6,
     "company": "N/A",
     "info": "Clue is a murder mystery game. The aim is to find out who committed the murder, which weapon they used, and where in the mansion they did it. How do you solve the case? By careful questioning of your fellow players you can deduce which information is concealed in the crime envelope. The trick is to be clever with your questioning... Everyone develops their own system!",
-    "inCart": false,
     "players": "3-6",
     "time": "30"
   },
@@ -301,7 +294,6 @@
     "price": 8,
     "company": "N/A",
     "info": "One Night Ultimate Werewolf is a fast-pace mafia-type game with secret roles for everyone. Like a mafia game, villagers must find and execute the werewolf. Trick is, your roles may have changed over night. You might find yourself switched to a werewolf by surprise. You only get ONE chance to kill a werewolf after only ONE night!",
-    "inCart": false,
     "players": "3-10",
     "time": "10"
   },

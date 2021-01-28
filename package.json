@@ -12,6 +12,7 @@
     "start": "next start -p $PORT"
   },
   "dependencies": {
+    "@prisma/client": "^2.15.0",
     "autoprefixer": "^10.2.1",
     "next": "10.0.5",
     "postcss": "^8.2.4",
@@ -20,6 +21,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "@prisma/cli": "^2.15.0"
+    "@prisma/cli": "^2.15.0",
+    "node-fetch": "^2.6.1"
   }
 }

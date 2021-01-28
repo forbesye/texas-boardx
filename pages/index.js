@@ -1,6 +1,7 @@
 import Layout from "components/Layout";
 import GameList from "components/GameList";
 import gameInfo from "public/game_info.json"
+import { PrismaClient } from "@prisma/client"
 
 export default function Home({ games }) {
   return (
@@ -11,9 +12,10 @@ export default function Home({ games }) {
 }
 
 export async function getStaticProps() {
-  const res = await fetch("../public/game_info.json");
-  const data = await res.json();
+  // const res = await fetch("../public/game_info.json");
+  // const data = await res.json();
+  const prisma = new PrismaClient()
+  const games = await prisma.games.findMany()
 
-  // const data = await gameInfo.json()
-  return { props: { data } }
+  return { props: { games } }
 }
