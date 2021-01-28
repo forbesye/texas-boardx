@@ -4,7 +4,7 @@ import Navbar from "components/Navbar";
 
 export default function Layout({ children, title = "Texas BoardX" }) {
   return (
-    <div>
+    <div className="bg-gray-50">
       <Head>
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
@@ -14,7 +14,7 @@ export default function Layout({ children, title = "Texas BoardX" }) {
       <header>
         <Navbar />
       </header>
-      <main className="bg-gray-50 p-2">
+      <main className="p-2">
         <div className="block md:w-9/12 m-auto">
           {children}
         </div>
