@@ -4,7 +4,7 @@
   "private": true,
   "engines": {
     "node": "14.x",
-    "npm": "6.x"
+    "npm": "7.x"
   },
   "scripts": {
     "dev": "next dev",
@@ -21,7 +21,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "@prisma/cli": "^2.15.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "prisma": "^2.20.1"
   }
 }
